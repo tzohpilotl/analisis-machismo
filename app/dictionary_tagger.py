@@ -14,17 +14,20 @@ class DictionaryTagger():
                 else:
                     self.dictionary[key] = curr_dict[key]
 
-        def tag(self, postagged_sentences):
-            return [self.tag_sentence(sent) for sent in postagged_sentences]
+    def tag(self, postagged_sentences):
+        return [self.tag_sentence(sent) for sent in postagged_sentences]
 
-        def tag_sentence(self, sentence, tag_with_lemmas=None):
-            tagged_sentence = []
-            for word in sentence:
-                expression_form = word[0]
-                literal = expression_form
-                if literal in self.dictionary:
-                    tags = [tag for tag in self.dictionary[literal]]
-                    tagged_expression = (expression_form, tags)
-                    tagged_sentence.append(tagged_expression)
+    def tag_sentence(self, sentence, tag_with_lemmas=None):
+        tagged_sentence = []
+        for word in sentence:
+            expression_form = word[0]
+            literal = expression_form
+            if literal in self.dictionary:
+                tags = [tag for tag in self.dictionary[literal]]
+                tags.append(word[1])
+            else:
+                tags = word[1]
+            tagged_expression = (expression_form, tags)
+            tagged_sentence.append(tagged_expression)
 
-            return tagged_sentence
+        return tagged_sentence
