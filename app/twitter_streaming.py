@@ -17,9 +17,11 @@ class StdOutListener(StreamListener):
 
 if __name__ == '__main__':
 
-    keys = readKeys()
+    key_reader = KeyReader()
+    keys = key_reader.read('keys.ini', 'keys')
 
-    # This handles Twitter authetification and the connection to Twitter Streaming API
+    # This handles Twitter authetification and the connection to
+    # Twitter Streaming API
     listener = StdOutListener()
     auth = OAuthHandler(keys['consumer_key'], keys['consumer_secret'])
     auth.set_access_token(keys['access_token'], keys['access_token_secret'])
