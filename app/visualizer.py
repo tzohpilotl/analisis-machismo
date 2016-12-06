@@ -21,7 +21,7 @@ if __name__ == '__main__':
         try:
             #Remove hashtags, usernames and links
             #print(tweet['text'])
-            tweet_list.append(re.sub(r'((@|#|_|-)[A-Za-z0-9]+)|(RT|retweet|from|via)(?:\b\W*@(\w+))+|(http\S+)','',tweet['text']))
+            tweet_list.append(re.sub(r'((@\S+|#\S+)[A-Za-z0-9]+)|(RT|retweet|from|via)(?:\b\W*@(\w+))+|(http\S+)','',tweet['text']))
         except KeyError:
             #print("Skip malformed tweet")
             continue
