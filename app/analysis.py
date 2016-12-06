@@ -11,6 +11,7 @@ if __name__ == '__main__':
     formatter = TweetFormatter('twitter_data.txt')
     tweets = formatter.convert2json()
     tweets = formatter.convert2text(tweets, 'formatted_tweets.txt')
+    tweets = formatter.clean_tweets(tweets)
 
     sent = 'Mi colega está embarazada por puta'.split()
     tagger = DictionaryTagger(['./misoginy_dictionary.yml'])

@@ -1,4 +1,5 @@
 import sys
+import re
 import json
 
 class TweetFormatter():
@@ -37,6 +38,17 @@ class TweetFormatter():
                 for tweet in tweets_text:
                     output.write(tweet + '\n')
         return tweets_text
+
+    def clean_tweets(self, tweets_text=None):
+        tweets_clean = []
+        if tweets_text is None:
+            raise ValueError("Provide convert2text's output as parameter")
+        for tweet in tweets_text:
+            try:
+                tweets_clean.append(re.sub(r'((@\S+|#\S+)[A-Za-z0-9]+)|(RT|retweet|from|via)(?:\b\W*@(\w+))+|(http\S+)', '', tweet))
+            except KeyError:
+                continue
+        return tweets_clean
 
     def print_tweets(self, tweets_data=None):
         if tweets_data is None:
