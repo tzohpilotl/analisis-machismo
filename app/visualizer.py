@@ -1,21 +1,24 @@
 import sys
 import json
-#import pandas as pd
-#import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     tweets_data_path = './twitter_data.txt'
 
     tweets_data = []
-    tweets_file = open(tweets_data_path, "r")
-    for line in tweets_file:
+    with open(tweets_data_path, "r") as tweets_file:
+        for line in tweets_file:
+            try:
+                tweet = json.loads(line)
+                tweets_data.append(tweet)
+            except:
+                continue
+
+    print('Tienes ' + str(len(tweets_data)) + ' tweets')
+
+    for tweet in tweets_data:
         try:
-            tweet = json.loads(line)
-            tweets_data.append(tweet)
-        except:
-            continue
-
-    print(len(tweets_data))
-
-    print(tweet['text'])
+            print(tweet['text'])
+        except KeyError:
+            print("Skip malformed tweet")
+        
     input('Press enter to continue...')
