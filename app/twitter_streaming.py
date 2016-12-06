@@ -24,6 +24,6 @@ if __name__ == '__main__':
     stream = Stream(auth, listener)
 
     # This line filter Twitter Streams to capture data by keywords
-    with open("csv_file.csv", "r") as t:
+    with open("filter_tracks.csv", "r") as t:
         tracks = t.read()
     stream.filter(languages=["es"], track=tracks)
