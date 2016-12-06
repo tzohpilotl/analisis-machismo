@@ -1,3 +1,4 @@
+import os
 from configparser import ConfigParser
 
 def readKeys(filename='keys.ini', section='keys'):
@@ -12,6 +13,6 @@ def readKeys(filename='keys.ini', section='keys'):
         for item in items:
             keys[item[0]] = item[1]
     else:
-        raise Exception('{} not found in the {} file'.format(section, filename))
+        raise LookupError('{} not found in the {} file'.format(section, filename))
 
     return keys
