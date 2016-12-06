@@ -5,13 +5,15 @@ from readkeys import readKeys
 
 class StdOutListener(StreamListener):
 
+    def __init__(self):
+        super(StdOutListener, self).__init__()
+
     def on_data(self, data):
         print(data)
         return True
 
     def on_error(self, status):
         print(status)
-
 
 if __name__ == '__main__':
 
@@ -28,4 +30,8 @@ if __name__ == '__main__':
         tracks = []
         for line in t:
             tracks.append(line)
-    stream.filter(languages=["es"], track=tracks)
+    try:
+        stream.filter(languages=["es"], track=tracks)
+    except KeyboardInterrupt:
+        print("\nKeyboard Interrupted")
+        input("press enter to continue.....")
