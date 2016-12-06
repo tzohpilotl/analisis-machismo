@@ -53,5 +53,4 @@ class TwitterMiner():
                 print("Press Ctrl+C to stop mining tweets...")
                 self.stream.filter(languages=["es"], track=tracks)
             except KeyboardInterrupt:
-                print("\nKeyboard Interrupted")
-                input("press enter to continue.....")
+                print("Bye!")
