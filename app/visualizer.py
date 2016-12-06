@@ -15,10 +15,14 @@ if __name__ == '__main__':
 
     print('Tienes ' + str(len(tweets_data)) + ' tweets')
 
+    tweet_list = []
     for tweet in tweets_data:
         try:
-            print(tweet['text'])
+            #print(tweet['text'])
+            tweet_list.append(tweet['text'])
         except KeyError:
-            print("Skip malformed tweet")
-        
-    input('Press enter to continue...')
+            #print("Skip malformed tweet")
+            continue
+    print(tweet_list[0])
+
+    #input('Press enter to continue...')
