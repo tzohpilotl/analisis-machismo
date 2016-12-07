@@ -4,7 +4,7 @@ import json
 
 class TweetFormatter():
 
-    def __init__(self, source_file='twitter_data.txt'):
+    def __init__(self, source_file=None):
         self.tweets_source = source_file
 
     def convert2json(self, tweets_source=None):
@@ -44,19 +44,6 @@ class TweetFormatter():
         if tweets_text is None:
             raise ValueError("Provide convert2text's output as parameter")
         for tweet in tweets_text:
-            try:
-                tweets_clean.append(re.sub(r'((@\S+|#\S+)[A-Za-z0-9]+)|(RT|retweet|from|via)(?:\b\W*@(\w+))+|(http\S+)', '', tweet))
-            except KeyError:
-                continue
-        return tweets_clean
+            tweets_clean.append(re.sub(r'((@\S+|#\S+)[A-Za-z0-9]+)|(RT\b|retweet|from|via)(?:\b\W*@(\w+))+|(http\S+)|', '', tweet))
 
-    def print_tweets(self, tweets_data=None):
-        if tweets_data is None:
-            print("Provide convert2json's output as parameter.")
-        else:
-            for tweet in self.tweets_data:
-                try:
-                    print(tweet['text'])
-                except KeyError:
-                    print("Skip malformed tweet")
-            input('Press enter to continue...')
+        return tweets_clean

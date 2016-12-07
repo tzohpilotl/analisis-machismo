@@ -7,11 +7,10 @@ class _StdOutListener(StreamListener):
 
     def __init__(self, output_filename=None):
         super(_StdOutListener, self).__init__()
-        self.output_filename = output_filename
         try:
             self.output_file = open(output_filename, "w")
-        except OSError as err:
-            output_file = None
+        except TypeError as err:
+            self.output_file = None
 
     def on_data(self, data):
         if self.output_file is None:
