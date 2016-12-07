@@ -49,7 +49,7 @@ class TwitterMiner():
         self.stream = Stream(auth, listener)
 
     def mine(self, track_words, output_file=None):
-        """ This line filter Twitter Streams to capture data by keywords """
+        """Retrieve tweets with text that matches track_words. """
 
         if output_file is not None:
             self.output_file = output_file
