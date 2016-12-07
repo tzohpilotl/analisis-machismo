@@ -3,6 +3,10 @@ import yaml
 class DictionaryTagger():
 
     def __init__(self, dictionary_paths):
+        """ 
+        Dictionary is a dict containing all the dictionaries parsed
+        from the paths given.
+        """
         dictionaries = self.compile_dictionaries(dictionary_paths)
         self.dictionary = {}
         for curr_dict in dictionaries:
@@ -13,6 +17,7 @@ class DictionaryTagger():
                     self.dictionary[key] = curr_dict[key]
 
     def compile_dictionaries(self, dictionary_paths):
+        """ Returns a list of dictionaries parsed from .yml files """
         files = [open(path, "r") for path in dictionary_paths]
         dictionaries = [yaml.load(dict_file) for dict_file in files]
         for file in files:
@@ -29,7 +34,8 @@ class DictionaryTagger():
             literal = expression_form
             if literal in self.dictionary:
                 tags = [tag for tag in self.dictionary[literal]]
-                tags.append(word[1])
+                if word[1] is not None:
+                    tags.append(word[1])
             else:
                 tags = word[1]
             tagged_expression = (expression_form, tags)

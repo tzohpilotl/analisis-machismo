@@ -28,3 +28,11 @@ class TestDictionaryTagger(unittest.TestCase):
                              compile_dictionaries(['tests/subset_dict.yml'
                                                    ,'tests/subset2_dict.yml']),
                          [d,d2])        
+
+    def test_tag_sentences(self):
+        tagger = DictionaryTagger(['tests/subset_dict.yml',
+                                   'tests/subset2_dict.yml'])
+        postagged_sents = [[('Por', 'sps00'), ('perra', None), ('te', 'pp2cs000'), ('clavaré', None), ('este', 'dd0ms0'), ('fierro', None)], [('Aflojas', None), ('ote', None), ('corro,', None), ('pendeja', None)]]
+        tagged_sents = [[('Por', 'sps00'), ('perra', ["machista"]), ('te', 'pp2cs000'), ('clavaré', None), ('este', 'dd0ms0'), ('fierro', None)], [('Aflojas', None), ('ote', None), ('corro,', None), ('pendeja', ["machista"])]]
+
+        self.assertEqual(tagger.tag(postagged_sents), tagged_sents)
