@@ -5,7 +5,7 @@ from tweet_formatter import TweetFormatter
 
 if __name__ == '__main__':
 
-    miner = TwitterMiner('keys.ini', 'twitter_data.txt')
+    miner = TwitterMiner('keys.ini', 'twitter_data.txt', 1000)
     miner.mine('tracks.csv')
 
     formatter = TweetFormatter('twitter_data.txt')
@@ -13,8 +13,11 @@ if __name__ == '__main__':
     tweets = formatter.convert2text(tweets, 'formatted_tweets.txt')
     tweets = formatter.clean_tweets(tweets)
     tweets = [tweet.split() for tweet in tweets]
-    print(tweets)
+#    print(tweets)
 
     tagger = DictionaryTagger(['./misoginy_dictionary.yml'])
     postagged_sents = spgt.pos_tag_sents(tweets)    
-    tagged_sent = tagger.tag(postagged_sents)
+    tagged_sents = tagger.tag(postagged_sents)
+
+    for sent in tagged_sents:
+        print(sent)
