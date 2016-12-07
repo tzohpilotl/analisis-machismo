@@ -6,11 +6,11 @@ class TestKeyReader(unittest.TestCase):
     def setup(self):
         pass
 
-    def test_missingSection(self):
+    def test_missing_section(self):
         kr = KeyReader()
         self.assertRaises(LookupError, kr.read, './tests/keys1.ini')
 
-    def test_validFiles(self):
+    def test_valid_files(self):
         correct_keys = {
             'access_token': '3265482518-jdsSS32',
             'access_token_secret': 'EWFzf8x5KtgYVLsld223dDpdm7leTra',
