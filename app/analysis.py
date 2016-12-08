@@ -23,12 +23,16 @@ def main(keys='keys.ini', raw_tweets_file='twitter_data.txt', no_tweets=1000,
          tracked_words_file='tracks.csv',
          formatted_tweets_file='formatted_tweets.txt',
          dictionaries=['misoginy_dictionary.yml', 'curses_dictionary.yml']):
-    """When the Python interpreter reads a source file, it executes all of the 
-    code found in it. Before executing the code, it will define a few special 
-    variables. For example, if the python interpreter is running that module 
-    (the source file) as the main program, it sets the special __name__ 
-    variable to have a value "__main__". If this file is being imported from 
-    another module, __name__ will be set to the module's name.
+    """Perform an analyisis to find sexist and rude words in tweets
+
+    This module employs every other module to perform a full analysis on data
+    retrieved from the Twitter stream. First a TwitterMiner retrieves data and
+    dumps it, then a TweetFormatter parses the data into a list of tweets that
+    are lists of words. Then it uses the spaghetti tagger to POStag every word,
+    yielding a list of tweets that are lists with elements with the form (word,
+    [tags]). A DictionaryTagger adds our custom tags to the [tags] list. Finally
+    a TagCounter perform a count of every tag found in tweets. This program 
+    prints the number of coincidences of our custom tags.
     """
 
     miner = TwitterMiner(keys, raw_tweets_file, no_tweets)
