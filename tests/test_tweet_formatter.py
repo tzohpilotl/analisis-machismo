@@ -1,7 +1,13 @@
 import unittest
+import pydoc
 from app.tweet_formatter import TweetFormatter
 
 class TestTweetFormatter(unittest.TestCase):
+    """The crux of each test is a call to assertEqual() to check for an expected
+       result; assertTrue() or assertFalse() to verify a condition; or 
+       assertRaises() to verify that a specific exception gets raised. 
+       These methods are used instead of the assert statement so the 
+       test runner can accumulate all test results and produce a report."""
 
     def test_inexistent_file(self):
         f = TweetFormatter('ghost_file.txt')
