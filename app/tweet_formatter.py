@@ -40,6 +40,8 @@ class TweetFormatter():
         return tweets_text
 
     def clean_tweets(self, tweets_text=None):
+        """ Regular expressions to remove unnecessary characters in Tweets"""
+
         tweets_clean = []
         if tweets_text is None:
             raise ValueError("Provide convert2text's output as parameter")
