@@ -30,7 +30,7 @@ class TweetFormatter():
             raise ValueError("Provide convert2json's output as parameter")
         for tweet in tweets_data:
             try:
-                tweets_text.append(tweet['text'].enconde('ascii', 'ignore'))
+                tweets_text.append(tweet['text'])
             except KeyError:
                 continue
         if output_file is not None:
