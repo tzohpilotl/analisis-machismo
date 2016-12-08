@@ -2,7 +2,7 @@ from configparser import ConfigParser
 import pydoc
 
 class KeyReader():
-    """ Keyreader to load keys.ini file """
+    """ Wrapper of ConfigParser to load .ini file with Twitter API keys """
 
     def __init__(self):
         self.parser = ConfigParser()
@@ -10,7 +10,7 @@ class KeyReader():
     
     def read(self, filename='keys.ini', section='keys'):
         """ Import the configparser, tell it to read the file, and get a 
-        listing of the sections. Sections are listed in square brackets []
+        listing of the sections. Sections are listed in a python dictionary.
         """
 	
         self.keys.clear()
