@@ -5,6 +5,9 @@ from key_reader import KeyReader
 import pydoc
 
 class _StdOutListener(StreamListener):
+    """Wrapper for StreamListener. Allows a limited number of tweets retrieved
+    and dumping data to a file
+    """
 
     def __init__(self, max_tweets, output_filename=None):
         super(_StdOutListener, self).__init__()
@@ -16,8 +19,10 @@ class _StdOutListener(StreamListener):
             self.output_file = None
 
     def on_data(self, data):
-        """ The on_data method of Tweepy’s StreamListener conveniently passes 
-            data from statuses to the  on_status method. """
+        """Check if it already retrieved the established number of tweets and
+        handles the dumping of data
+        """ 
+
         if self.output_file is None:
             print(data)
         else:
@@ -36,6 +41,9 @@ class _StdOutListener(StreamListener):
         print(status)
 
 class TwitterMiner():
+    """Exposes the whole chain needed to retrieve data from the Twitter stream
+    from reading the keys, create an oAuth object,  
+    """
 
     def __init__(self, keys_file='keys.ini', output_file=None, max_tweets=10):
         self.keys_file = keys_file
@@ -43,6 +51,7 @@ class TwitterMiner():
         self.max_tweets = max_tweets
 
     def connect(self):
+        """Get keys and connect to Twitter through OAuth """
         self.key_reader = KeyReader()
         self.keys = self.key_reader.read('keys.ini', 'keys')
 
