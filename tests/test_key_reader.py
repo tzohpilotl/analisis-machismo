@@ -7,6 +7,12 @@ class TestKeyReader(unittest.TestCase):
         pass
 
     def test_missing_section(self):
+        """  unittest supports test automation, sharing of setup and shutdown
+             code for tests, aggregation of tests into collections, and
+             independence of the tests from the reporting framework. The unittest
+             module provides classes that make it easy to support these qualities
+             for a set of tests. """
+
         kr = KeyReader()
         self.assertRaises(LookupError, kr.read, './tests/keys1.ini')
 
