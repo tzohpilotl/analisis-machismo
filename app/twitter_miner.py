@@ -2,6 +2,7 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 from key_reader import KeyReader
+import pydoc
 
 class _StdOutListener(StreamListener):
 
@@ -15,6 +16,8 @@ class _StdOutListener(StreamListener):
             self.output_file = None
 
     def on_data(self, data):
+        """ The on_data method of Tweepy’s StreamListener conveniently passes 
+            data from statuses to the  on_status method. """
         if self.output_file is None:
             print(data)
         else:
