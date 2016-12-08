@@ -3,11 +3,16 @@ import re
 import json
 
 class TweetFormatter():
+    """Provides the tools needed to format raw data from Twitter stream to 
+    stripped text like this: raw -> json -> text -> stripped text.
+    """
 
     def __init__(self, source_file=None):
         self.tweets_source = source_file
 
     def convert2json(self, tweets_source=None):
+        """ Wrap json module to convert raw Twitter data to json """
+        
         tweets_data = []
         if tweets_source is None:
             if self.tweets_source is not None:
@@ -25,6 +30,8 @@ class TweetFormatter():
         return tweets_data
 
     def convert2text(self, tweets_data=None, output_file=None):
+        """ Grab 'text' field of jsons only and return a list of them """
+
         tweets_text = []
         if tweets_data is None:
             raise ValueError("Provide convert2json's output as parameter")
