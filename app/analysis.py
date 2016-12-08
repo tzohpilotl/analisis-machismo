@@ -1,4 +1,3 @@
-import pydoc
 import plac
 from dictionary_tagger import DictionaryTagger
 from spaghetti import spaghetti as spgt
