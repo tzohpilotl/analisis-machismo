@@ -1,5 +1,4 @@
 import yaml
-import pydoc
 
 class DictionaryTagger():
     """ Python class for tagging text with dictionaries """
