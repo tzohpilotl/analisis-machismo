@@ -1,10 +1,24 @@
 import pydoc
+import plac
 from dictionary_tagger import DictionaryTagger
 from spaghetti import spaghetti as spgt
 from twitter_miner import TwitterMiner
 from tweet_formatter import TweetFormatter
 from tag_counter import TagCounter
 
+@plac.annotations(
+    keys=plac.Annotation("Twitter API keys", 'option', 'k', str),
+    raw_tweets_file=plac.Annotation("TwitterMiner dump file", 'option', 'r',
+                                    str),
+    no_tweets=plac.Annotation("Number of tweets to download", 'option', 'n',
+                              int),
+    tracked_words_file=plac.Annotation("File with words to track", 'option',
+                                       'w', str),
+    formatted_tweets_file=plac.Annotation("convert2json dump file", 'option',
+                                          'f', str),
+    dictionaries=plac.Annotation("List of paths to dictionaries", 'option', 'd',
+                                 list)
+)
 def main(keys='keys.ini', raw_tweets_file='twitter_data.txt', no_tweets=1000,
          tracked_words_file='tracks.csv',
          formatted_tweets_file='formatted_tweets.txt',
@@ -44,4 +58,4 @@ def main(keys='keys.ini', raw_tweets_file='twitter_data.txt', no_tweets=1000,
         pass
 
 if __name__ == '__main__':
-    import plac; plac.call(main)
+    plac.call(main)
