@@ -3,6 +3,7 @@ from dictionary_tagger import DictionaryTagger
 from spaghetti import spaghetti as spgt
 from twitter_miner import TwitterMiner
 from tweet_formatter import TweetFormatter
+from tag_counter import TagCounter
 
 def main(keys='keys.ini', raw_tweets_file='twitter_data.txt', no_tweets=1000,
          tracked_words_file='tracks.csv',
@@ -29,8 +30,18 @@ def main(keys='keys.ini', raw_tweets_file='twitter_data.txt', no_tweets=1000,
     postagged_sents = spgt.pos_tag_sents(tweets)    
     tagged_sents = tagger.tag(postagged_sents)
 
-    for sent in tagged_sents:
-        print(sent)
+    counter = TagCounter(tagged_sents)
+    res = counter.count()
+
+    try:
+        print("Palabras misóginas: {}".format(res['misóginia']))
+    except KeyError:
+        pass
+
+    try:
+        print("Palabras groseras: {}".format(res['grosería']))
+    except KeyError:
+        pass
 
 if __name__ == '__main__':
     import plac; plac.call(main)
