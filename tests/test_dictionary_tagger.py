@@ -1,9 +1,22 @@
+import pydoc
 import unittest
 from app.dictionary_tagger import DictionaryTagger
 
 class TestDictionaryTagger(unittest.TestCase):
 
     def test_init_output(self):
+        """ The Python unit testing framework, sometimes referred to as
+            “PyUnit,” is a Python language version of JUnit, by Kent Beck 
+             and Erich Gamma. JUnit is, in turn, a Java version of Kent’s
+             Smalltalk testing framework. Each is the de facto standard unit 
+             testing framework for its respective language.
+
+             unittest supports test automation, sharing of setup and shutdown 
+             code for tests, aggregation of tests into collections, and 
+             independence of the tests from the reporting framework. The unittest 
+             module provides classes that make it easy to support these qualities 
+             for a set of tests."""
+
         tagger = DictionaryTagger(['tests/subset_dict.yml'])
         d = {
             'puta': ['machista'],
