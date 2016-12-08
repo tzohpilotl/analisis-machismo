@@ -1,5 +1,4 @@
 import unittest
-import pydoc
 from app.tweet_formatter import TweetFormatter
 
 class TestTweetFormatter(unittest.TestCase):

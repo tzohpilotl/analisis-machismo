@@ -1,4 +1,3 @@
-import pydoc
 import unittest
 from app.dictionary_tagger import DictionaryTagger
 
