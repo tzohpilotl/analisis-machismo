@@ -1,5 +1,4 @@
 from configparser import ConfigParser
-import pydoc
 
 class KeyReader():
     """ Wrapper of ConfigParser to load .ini file with Twitter API keys """
