@@ -2,7 +2,6 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 from key_reader import KeyReader
-import pydoc
 
 class _StdOutListener(StreamListener):
     """Wrapper for StreamListener. Allows a limited number of tweets retrieved
