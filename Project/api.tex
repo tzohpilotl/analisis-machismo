@@ -10,6 +10,7 @@
 \usepackage{makeidx, multirow, longtable, tocbibind, amssymb}
 \usepackage{fullpage}
 \usepackage[usenames]{color}
+\usepackage[final]{pdfpages}
 \setlength{\headheight}{16pt}
 \setlength{\headsep}{24pt}
 \setlength{\topmargin}{-\headsep}
@@ -79,7 +80,6 @@
 
 \begin{document}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                Header                                 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -89,8 +89,8 @@
 %%                                 Title                                 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Project}
-\author{API Documentation}
+\title {Detección de sexismo en Twitter \\ Ingeniería de Software}
+\author{Abraham Solís Álvarez \\ Mario Alejandro Gil Lázaro}
 \maketitle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -104,6 +104,48 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                               Includes                                %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Requerimientos}
+\subsection{Descripción del proyecto}
+Este proyecto busca determinar los niveles de sexismo y otras manifestaciones
+de odio y discriminación, en el texto que los usuarios del sitio de
+microblogeo Twitter, escriben diariamente. Dado que el internet es una
+plataforma moderna de expresión y debido también a que la ya mencionada red
+social posee un número importante de usuarios, consideramos que la información
+ahí recabada representa una muestra importante. Así mismo, el hecho de que
+los medios virtuales son comúnmente considerados como medios poco
+trascendentales, en los que se puede supuestamente evitar las consecuencias
+que los propios comentarios puedan ocasionar, creemos que las opiniones ahí
+expresadas poseen un alto grado de sinceridad, mayor al que podría obtenerse
+en el discurso hablado.
+
+\subsection{Requerimientos del proyecto}
+El sistema propuesto debe ser capaz de recolectar los posts directamente del
+stream de Twitter, convertir los datos al formato que mejor convenga, etiquetar
+palabra por palabra el texto, y realizar mediciones que permitan elaborar
+indicadores que arrojen luz sobre las costumbres y la cultura de los usuarios
+de la red social. Se pretende lograr esto manteniendo los más altos estándares
+de calidad que sea posible, aplicando prácticas de programación modernas.
+
+\section{Desarrollo}
+\subsection{Cronograma de Actividades}
+\includepdf[pages=-]{crono.pdf}
+
+\subsection{Dependencias}
+Para ejecutar el programa con las mayores probabilidades de éxito se recomienda
+utilizar un sistema operativo basado en GNU/Linux. Es necesario instalar una
+Python 3.x, de preferencia la versión 3.5, que fue la utilizada en el
+desarrollo del sistema. Se recomienda utilizar el programa `pip` para instalar
+los módulos de Python `nltk` y `plac`, que son necesarios para ejecutar el
+programa. Es necesario contar con una conexión a internet.
+
+\subsection{Modo de uso}
+Por el momento, la única forma de interactuar con el sistema es mediante el
+módulo `analysis.py`, localizado en el directorio `app` (con el comando
+`python analysis.py`). Tenga en cuenta que usted debe estar localizado dentro
+de dicho directorio. Además, se proporciona un script que ejecuta las pruebas
+del sistema en el directorio raíz: `run_tests`.
+
+
 
 \include{analisis-machismo-module}
 \include{analisis-machismo.app-module}
