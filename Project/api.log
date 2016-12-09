@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2016.12.7)  8 DEC 2016 01:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2016.12.7)  9 DEC 2016 04:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -470,7 +470,17 @@ File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
 
 
 Writing index file api.idx
-(./api.aux (./analisis-machismo-module.aux))
+(./api.aux (./analisis-machismo-module.aux) (./analisis-machismo.app-module.aux
+) (./analisis-machismo.app.analysis-module.aux)
+(./analisis-machismo.app.dictionary_tagger-module.aux)
+(./analisis-machismo.app.key_reader-module.aux)
+(./analisis-machismo.app.tag_counter-module.aux)
+(./analisis-machismo.app.tweet_formatter-module.aux)
+(./analisis-machismo.app.twitter_miner-module.aux)
+(./analisis-machismo.tests-module.aux)
+(./analisis-machismo.tests.test_dictionary_tagger-module.aux)
+(./analisis-machismo.tests.test_key_reader-module.aux)
+(./analisis-machismo.tests.test_tweet_formatter-module.aux))
 \openout1 = `api.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -515,47 +525,183 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./api.toc)
+) (./api.toc [1
+
+])
 \tf@toc=\write5
 \openout5 = `api.toc'.
 
- [1
 
-]
+[2]
 \openout2 = `analisis-machismo-module.aux'.
 
+ (./analisis-machismo-module.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
 
-(./analisis-machismo-module.tex) [2
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+) [3
 
-] (./api.ind [3
+]
+\openout2 = `analisis-machismo.app-module.aux'.
+
+
+(./analisis-machismo.app-module.tex) [4
+
+
+]
+\openout2 = `analisis-machismo.app.analysis-module.aux'.
+
+
+(./analisis-machismo.app.analysis-module.tex) [5
+
+
+]
+\openout2 = `analisis-machismo.app.dictionary_tagger-module.aux'.
+
+
+(./analisis-machismo.app.dictionary_tagger-module.tex) [6
+
+
+]
+\openout2 = `analisis-machismo.app.key_reader-module.aux'.
+
+
+(./analisis-machismo.app.key_reader-module.tex) [7
+
+
+]
+\openout2 = `analisis-machismo.app.tag_counter-module.aux'.
+
+
+(./analisis-machismo.app.tag_counter-module.tex) [8
+
+
+]
+\openout2 = `analisis-machismo.app.tweet_formatter-module.aux'.
+
+
+(./analisis-machismo.app.tweet_formatter-module.tex
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 27.
+) [9
+
+
+]
+\openout2 = `analisis-machismo.app.twitter_miner-module.aux'.
+
+
+(./analisis-machismo.app.twitter_miner-module.tex) [10
+
+
+]
+\openout2 = `analisis-machismo.tests-module.aux'.
+
+
+(./analisis-machismo.tests-module.tex) [11
+
+
+]
+\openout2 = `analisis-machismo.tests.test_dictionary_tagger-module.aux'.
+
+
+(./analisis-machismo.tests.test_dictionary_tagger-module.tex) [12
+
+
+]
+\openout2 = `analisis-machismo.tests.test_key_reader-module.aux'.
+
+
+(./analisis-machismo.tests.test_key_reader-module.tex) [13
+
+
+]
+\openout2 = `analisis-machismo.tests.test_tweet_formatter-module.aux'.
+
+
+(./analisis-machismo.tests.test_tweet_formatter-module.tex) [14
+
+
+] (./api.ind
+Overfull \hbox (2.83385pt too wide) in paragraph at lines 7--9
+[]| \OT1/cmr/m/n/10 analisis-machismo.app.dictionary[]tagger \OT1/cmr/m/it/10 (
+mod-
+ []
+
+
+Overfull \hbox (1.0615pt too wide) in paragraph at lines 11--13
+[]| \OT1/cmr/m/n/10 analisis-machismo.app.tag[]counter \OT1/cmr/m/it/10 (mod-ul
+e)\OT1/cmr/m/n/10 , [][][][][][] 
+ []
+
+
+Overfull \hbox (11.97816pt too wide) in paragraph at lines 13--15
+[]| \OT1/cmr/m/n/10 analisis-machismo.app.tweet[]formatter \OT1/cmr/m/it/10 (mo
+d-ule)\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (1.97815pt too wide) in paragraph at lines 15--17
+[]| \OT1/cmr/m/n/10 analisis-machismo.app.twitter[]miner \OT1/cmr/m/it/10 (mod-
+ule)\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (26.60051pt too wide) in paragraph at lines 18--20
+[]| \OT1/cmr/m/n/10 analisis-machismo.tests.test[]dictionary[]tagger \OT1/cmr/m
+/it/10 (mod-
+ []
+
+
+Overfull \hbox (19.93378pt too wide) in paragraph at lines 22--24
+[]| \OT1/cmr/m/n/10 analisis-machismo.tests.test[]tweet[]formatter \OT1/cmr/m/i
+t/10 (mod-
+ []
+
+[15
 
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
- (./api.aux
-(./analisis-machismo-module.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+ (./api.aux (./analisis-machismo-module.aux)
+(./analisis-machismo.app-module.aux)
+(./analisis-machismo.app.analysis-module.aux)
+(./analisis-machismo.app.dictionary_tagger-module.aux)
+(./analisis-machismo.app.key_reader-module.aux)
+(./analisis-machismo.app.tag_counter-module.aux)
+(./analisis-machismo.app.tweet_formatter-module.aux)
+(./analisis-machismo.app.twitter_miner-module.aux)
+(./analisis-machismo.tests-module.aux)
+(./analisis-machismo.tests.test_dictionary_tagger-module.aux)
+(./analisis-machismo.tests.test_key_reader-module.aux)
+(./analisis-machismo.tests.test_tweet_formatter-module.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+Package rerunfilecheck Info: File `api.out' has not changed.
+(rerunfilecheck)             Checksum: 57C77F944B1E85CA3F9838EE6CF5A527;2367.
 
 
-Package rerunfilecheck Warning: File `api.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: Checksums for `api.out':
-(rerunfilecheck)             Before: B12639FF984FAB89A146B3DC83A1FA3B;104
-(rerunfilecheck)             After:  4F678D2FC42D1CECE6F7818216C05876;145.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 5695 strings out of 495021
- 83049 string characters out of 6181350
- 159876 words of memory out of 5000000
- 8834 multiletter control sequences out of 15000+600000
- 10196 words of font info for 38 fonts, out of 8000000 for 9000
+ 5925 strings out of 495021
+ 94009 string characters out of 6181350
+ 171281 words of memory out of 5000000
+ 8978 multiletter control sequences out of 15000+600000
+ 12370 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,11n,43p,300b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,12n,43p,563b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on api.dvi (3 pages, 5352 bytes).
+Output written on api.dvi (15 pages, 66080 bytes).

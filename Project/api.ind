@@ -1,5 +1,25 @@
 \begin{theindex}
 
   \item analisis-machismo \textit{(package)}, \hyperpage{2}
+    \subitem analisis-machismo.app \textit{(package)}, \hyperpage{3}
+      \subsubitem analisis-machismo.app.analysis \textit{(module)}, 
+		\hyperpage{4}
+      \subsubitem analisis-machismo.app.dictionary\_tagger \textit{(module)}, 
+		\hyperpage{5}
+      \subsubitem analisis-machismo.app.key\_reader \textit{(module)}, 
+		\hyperpage{6}
+      \subsubitem analisis-machismo.app.tag\_counter \textit{(module)}, 
+		\hyperpage{7}
+      \subsubitem analisis-machismo.app.tweet\_formatter \textit{(module)}, 
+		\hyperpage{8}
+      \subsubitem analisis-machismo.app.twitter\_miner \textit{(module)}, 
+		\hyperpage{9}
+    \subitem analisis-machismo.tests \textit{(package)}, \hyperpage{10}
+      \subsubitem analisis-machismo.tests.test\_dictionary\_tagger \textit{(module)}, 
+		\hyperpage{11}
+      \subsubitem analisis-machismo.tests.test\_key\_reader \textit{(module)}, 
+		\hyperpage{12}
+      \subsubitem analisis-machismo.tests.test\_tweet\_formatter \textit{(module)}, 
+		\hyperpage{13}
 
 \end{theindex}
