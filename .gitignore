@@ -3,4 +3,4 @@
 *.txt
 *~
 __pycache__
-*.yml
+tests/*.yml
