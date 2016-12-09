@@ -1,42 +1,54 @@
-\contentsline {section}{Contents}{1}{section*.1}
-\contentsline {section}{\numberline {1}Requerimientos}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Descripci\IeC {\'o}n del proyecto}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Requerimientos del proyecto}{2}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Dependencias}{3}{subsection.1.3}
-\contentsline {section}{\numberline {2}Documentaci\IeC {\'o}n}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}C\IeC {\'o}mo se usa el software}{3}{subsection.2.1}
-\contentsline {section}{\numberline {3}Desarrollo}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}Cronograma de Actividades}{4}{subsection.3.1}
-\contentsline {section}{\numberline {4}Package analisis-machismo}{5}{section.4}
-\contentsline {subsection}{\numberline {4.1}Modules}{5}{subsection.4.1}
-\contentsline {section}{\numberline {5}Package analisis-machismo.app}{6}{section.5}
-\contentsline {subsection}{\numberline {5.1}Modules}{6}{subsection.5.1}
-\contentsline {section}{\numberline {6}Module analisis-machismo.app.analysis}{7}{section.6}
-\contentsline {subsection}{\numberline {6.1}Functions}{7}{subsection.6.1}
-\contentsline {section}{\numberline {7}Module analisis-machismo.app.dictionary\_tagger}{8}{section.7}
-\contentsline {subsection}{\numberline {7.1}Class DictionaryTagger}{8}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Methods}{8}{subsubsection.7.1.1}
-\contentsline {section}{\numberline {8}Module analisis-machismo.app.key\_reader}{9}{section.8}
-\contentsline {subsection}{\numberline {8.1}Class KeyReader}{9}{subsection.8.1}
-\contentsline {subsubsection}{\numberline {8.1.1}Methods}{9}{subsubsection.8.1.1}
-\contentsline {section}{\numberline {9}Module analisis-machismo.app.tag\_counter}{10}{section.9}
-\contentsline {subsection}{\numberline {9.1}Class TagCounter}{10}{subsection.9.1}
-\contentsline {subsubsection}{\numberline {9.1.1}Methods}{10}{subsubsection.9.1.1}
-\contentsline {section}{\numberline {10}Module analisis-machismo.app.tweet\_formatter}{11}{section.10}
-\contentsline {subsection}{\numberline {10.1}Class TweetFormatter}{11}{subsection.10.1}
-\contentsline {subsubsection}{\numberline {10.1.1}Methods}{11}{subsubsection.10.1.1}
-\contentsline {section}{\numberline {11}Module analisis-machismo.app.twitter\_miner}{12}{section.11}
-\contentsline {subsection}{\numberline {11.1}Class TwitterMiner}{12}{subsection.11.1}
-\contentsline {subsubsection}{\numberline {11.1.1}Methods}{12}{subsubsection.11.1.1}
-\contentsline {section}{\numberline {12}Package analisis-machismo.tests}{13}{section.12}
-\contentsline {subsection}{\numberline {12.1}Modules}{13}{subsection.12.1}
-\contentsline {section}{\numberline {13}Module analisis-machismo.tests.test\_dictionary\_tagger}{14}{section.13}
-\contentsline {subsection}{\numberline {13.1}Class TestDictionaryTagger}{14}{subsection.13.1}
-\contentsline {subsubsection}{\numberline {13.1.1}Methods}{14}{subsubsection.13.1.1}
-\contentsline {section}{\numberline {14}Module analisis-machismo.tests.test\_key\_reader}{15}{section.14}
-\contentsline {subsection}{\numberline {14.1}Class TestKeyReader}{15}{subsection.14.1}
-\contentsline {subsubsection}{\numberline {14.1.1}Methods}{15}{subsubsection.14.1.1}
-\contentsline {section}{\numberline {15}Module analisis-machismo.tests.test\_tweet\_formatter}{16}{section.15}
-\contentsline {subsection}{\numberline {15.1}Class TestTweetFormatter}{16}{subsection.15.1}
-\contentsline {subsubsection}{\numberline {15.1.1}Methods}{16}{subsubsection.15.1.1}
-\contentsline {section}{Index}{17}{section*.2}
+\contentsline {chapter}{Contents}{1}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Requerimientos}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Requerimientos}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Descripci\IeC {\'o}n del proyecto}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Requerimientos del proyecto}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Dependencias}{3}{subsection.1.1.3}
+\contentsline {chapter}{\numberline {2}Desarrollo}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Desarrollo}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Cronograma de Actividades}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Reportes de Revisiones t\IeC {\'e}cnicas e informales}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Bugs corregidos}{5}{subsection.2.1.3}
+\contentsline {chapter}{\numberline {3}Documentaci\IeC {\'o}n}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Documentaci\IeC {\'o}n}{6}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}C\IeC {\'o}mo se usa el software}{6}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Documentaci\IeC {\'o}n de las funciones internas}{6}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Package analisis-machismo}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Modules}{7}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Package analisis-machismo.app}{8}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Modules}{8}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Module analisis-machismo.app.analysis}{9}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Functions}{9}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Module analisis-machismo.app.dictionary\_tagger}{10}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Class DictionaryTagger}{10}{subsection.3.5.1}
+\contentsline {subsubsection}{Methods}{10}{section*.2}
+\contentsline {section}{\numberline {3.6}Module analisis-machismo.app.key\_reader}{11}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Class KeyReader}{11}{subsection.3.6.1}
+\contentsline {subsubsection}{Methods}{11}{section*.3}
+\contentsline {section}{\numberline {3.7}Module analisis-machismo.app.tag\_counter}{12}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Class TagCounter}{12}{subsection.3.7.1}
+\contentsline {subsubsection}{Methods}{12}{section*.4}
+\contentsline {section}{\numberline {3.8}Module analisis-machismo.app.tweet\_formatter}{13}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Class TweetFormatter}{13}{subsection.3.8.1}
+\contentsline {subsubsection}{Methods}{13}{section*.5}
+\contentsline {section}{\numberline {3.9}Module analisis-machismo.app.twitter\_miner}{14}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Class TwitterMiner}{14}{subsection.3.9.1}
+\contentsline {subsubsection}{Methods}{14}{section*.6}
+\contentsline {section}{\numberline {3.10}Package analisis-machismo.tests}{15}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Modules}{15}{subsection.3.10.1}
+\contentsline {section}{\numberline {3.11}Module analisis-machismo.tests.test\_dictionary\_tagger}{16}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Class TestDictionaryTagger}{16}{subsection.3.11.1}
+\contentsline {subsubsection}{Methods}{16}{section*.7}
+\contentsline {section}{\numberline {3.12}Module analisis-machismo.tests.test\_key\_reader}{17}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Class TestKeyReader}{17}{subsection.3.12.1}
+\contentsline {subsubsection}{Methods}{17}{section*.8}
+\contentsline {section}{\numberline {3.13}Module analisis-machismo.tests.test\_tweet\_formatter}{18}{section.3.13}
+\contentsline {subsection}{\numberline {3.13.1}Class TestTweetFormatter}{18}{subsection.3.13.1}
+\contentsline {subsubsection}{Methods}{18}{section*.9}
+\contentsline {chapter}{\numberline {4}Resultado}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Resultado}{19}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Modulos en /app}{19}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Modulos en /test}{23}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {5}Conclusiones}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusiones}{28}{section.5.1}
+\contentsline {chapter}{Index}{29}{section.5.1}
