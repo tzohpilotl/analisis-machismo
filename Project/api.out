@@ -1,38 +1,42 @@
 \BOOKMARK [1][-]{section*.1}{Contents}{}% 1
-\BOOKMARK [1][-]{section.1}{Descripci\363n}{}% 2
-\BOOKMARK [1][-]{section.2}{Requerimientos}{}% 3
-\BOOKMARK [1][-]{section.3}{Dependencias}{}% 4
-\BOOKMARK [1][-]{section.4}{Modo de uso}{}% 5
-\BOOKMARK [1][-]{section.5}{Package analisis-machismo}{}% 6
-\BOOKMARK [2][-]{subsection.5.1}{Modules}{section.5}% 7
-\BOOKMARK [1][-]{section.6}{Package analisis-machismo.app}{}% 8
-\BOOKMARK [2][-]{subsection.6.1}{Modules}{section.6}% 9
-\BOOKMARK [1][-]{section.7}{Module analisis-machismo.app.analysis}{}% 10
-\BOOKMARK [2][-]{subsection.7.1}{Functions}{section.7}% 11
-\BOOKMARK [1][-]{section.8}{Module analisis-machismo.app.dictionary\137tagger}{}% 12
-\BOOKMARK [2][-]{subsection.8.1}{Class DictionaryTagger}{section.8}% 13
-\BOOKMARK [3][-]{subsubsection.8.1.1}{Methods}{subsection.8.1}% 14
-\BOOKMARK [1][-]{section.9}{Module analisis-machismo.app.key\137reader}{}% 15
-\BOOKMARK [2][-]{subsection.9.1}{Class KeyReader}{section.9}% 16
-\BOOKMARK [3][-]{subsubsection.9.1.1}{Methods}{subsection.9.1}% 17
-\BOOKMARK [1][-]{section.10}{Module analisis-machismo.app.tag\137counter}{}% 18
-\BOOKMARK [2][-]{subsection.10.1}{Class TagCounter}{section.10}% 19
-\BOOKMARK [3][-]{subsubsection.10.1.1}{Methods}{subsection.10.1}% 20
-\BOOKMARK [1][-]{section.11}{Module analisis-machismo.app.tweet\137formatter}{}% 21
-\BOOKMARK [2][-]{subsection.11.1}{Class TweetFormatter}{section.11}% 22
-\BOOKMARK [3][-]{subsubsection.11.1.1}{Methods}{subsection.11.1}% 23
-\BOOKMARK [1][-]{section.12}{Module analisis-machismo.app.twitter\137miner}{}% 24
-\BOOKMARK [2][-]{subsection.12.1}{Class TwitterMiner}{section.12}% 25
-\BOOKMARK [3][-]{subsubsection.12.1.1}{Methods}{subsection.12.1}% 26
-\BOOKMARK [1][-]{section.13}{Package analisis-machismo.tests}{}% 27
-\BOOKMARK [2][-]{subsection.13.1}{Modules}{section.13}% 28
-\BOOKMARK [1][-]{section.14}{Module analisis-machismo.tests.test\137dictionary\137tagger}{}% 29
-\BOOKMARK [2][-]{subsection.14.1}{Class TestDictionaryTagger}{section.14}% 30
-\BOOKMARK [3][-]{subsubsection.14.1.1}{Methods}{subsection.14.1}% 31
-\BOOKMARK [1][-]{section.15}{Module analisis-machismo.tests.test\137key\137reader}{}% 32
-\BOOKMARK [2][-]{subsection.15.1}{Class TestKeyReader}{section.15}% 33
-\BOOKMARK [3][-]{subsubsection.15.1.1}{Methods}{subsection.15.1}% 34
-\BOOKMARK [1][-]{section.16}{Module analisis-machismo.tests.test\137tweet\137formatter}{}% 35
-\BOOKMARK [2][-]{subsection.16.1}{Class TestTweetFormatter}{section.16}% 36
-\BOOKMARK [3][-]{subsubsection.16.1.1}{Methods}{subsection.16.1}% 37
-\BOOKMARK [1][-]{section*.2}{Index}{}% 38
+\BOOKMARK [1][-]{section.1}{Requerimientos}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Descripci\363n del proyecto}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Requerimientos del proyecto}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.3}{Dependencias}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Documentaci\363n}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{C\363mo se usa el software}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Desarrollo}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Cronograma de Actividades}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Package analisis-machismo}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Modules}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Package analisis-machismo.app}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Modules}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Module analisis-machismo.app.analysis}{}% 14
+\BOOKMARK [2][-]{subsection.6.1}{Functions}{section.6}% 15
+\BOOKMARK [1][-]{section.7}{Module analisis-machismo.app.dictionary\137tagger}{}% 16
+\BOOKMARK [2][-]{subsection.7.1}{Class DictionaryTagger}{section.7}% 17
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Methods}{subsection.7.1}% 18
+\BOOKMARK [1][-]{section.8}{Module analisis-machismo.app.key\137reader}{}% 19
+\BOOKMARK [2][-]{subsection.8.1}{Class KeyReader}{section.8}% 20
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Methods}{subsection.8.1}% 21
+\BOOKMARK [1][-]{section.9}{Module analisis-machismo.app.tag\137counter}{}% 22
+\BOOKMARK [2][-]{subsection.9.1}{Class TagCounter}{section.9}% 23
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Methods}{subsection.9.1}% 24
+\BOOKMARK [1][-]{section.10}{Module analisis-machismo.app.tweet\137formatter}{}% 25
+\BOOKMARK [2][-]{subsection.10.1}{Class TweetFormatter}{section.10}% 26
+\BOOKMARK [3][-]{subsubsection.10.1.1}{Methods}{subsection.10.1}% 27
+\BOOKMARK [1][-]{section.11}{Module analisis-machismo.app.twitter\137miner}{}% 28
+\BOOKMARK [2][-]{subsection.11.1}{Class TwitterMiner}{section.11}% 29
+\BOOKMARK [3][-]{subsubsection.11.1.1}{Methods}{subsection.11.1}% 30
+\BOOKMARK [1][-]{section.12}{Package analisis-machismo.tests}{}% 31
+\BOOKMARK [2][-]{subsection.12.1}{Modules}{section.12}% 32
+\BOOKMARK [1][-]{section.13}{Module analisis-machismo.tests.test\137dictionary\137tagger}{}% 33
+\BOOKMARK [2][-]{subsection.13.1}{Class TestDictionaryTagger}{section.13}% 34
+\BOOKMARK [3][-]{subsubsection.13.1.1}{Methods}{subsection.13.1}% 35
+\BOOKMARK [1][-]{section.14}{Module analisis-machismo.tests.test\137key\137reader}{}% 36
+\BOOKMARK [2][-]{subsection.14.1}{Class TestKeyReader}{section.14}% 37
+\BOOKMARK [3][-]{subsubsection.14.1.1}{Methods}{subsection.14.1}% 38
+\BOOKMARK [1][-]{section.15}{Module analisis-machismo.tests.test\137tweet\137formatter}{}% 39
+\BOOKMARK [2][-]{subsection.15.1}{Class TestTweetFormatter}{section.15}% 40
+\BOOKMARK [3][-]{subsubsection.15.1.1}{Methods}{subsection.15.1}% 41
+\BOOKMARK [1][-]{section*.2}{Index}{}% 42

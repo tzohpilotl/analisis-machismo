@@ -11,6 +11,8 @@
 \usepackage{fullpage}
 \usepackage[usenames]{color}
 \usepackage[final]{pdfpages}
+\usepackage{graphicx}
+\usepackage{float}
 \setlength{\headheight}{16pt}
 \setlength{\headsep}{24pt}
 \setlength{\topmargin}{-\headsep}
@@ -126,10 +128,6 @@ indicadores que arrojen luz sobre las costumbres y la cultura de los usuarios
 de la red social. Se pretende lograr esto manteniendo los más altos estándares
 de calidad que sea posible, aplicando prácticas de programación modernas.
 
-\section{Desarrollo}
-\subsection{Cronograma de Actividades}
-\includepdf[pages=-]{crono.pdf}
-
 \subsection{Dependencias}
 Para ejecutar el programa con las mayores probabilidades de éxito se recomienda
 utilizar un sistema operativo basado en GNU/Linux. Es necesario instalar una
@@ -138,12 +136,24 @@ desarrollo del sistema. Se recomienda utilizar el programa `pip` para instalar
 los módulos de Python `nltk` y `plac`, que son necesarios para ejecutar el
 programa. Es necesario contar con una conexión a internet.
 
-\subsection{Modo de uso}
+\section{Documentación}
+\subsection{Cómo se usa el software}
 Por el momento, la única forma de interactuar con el sistema es mediante el
 módulo `analysis.py`, localizado en el directorio `app` (con el comando
 `python analysis.py`). Tenga en cuenta que usted debe estar localizado dentro
 de dicho directorio. Además, se proporciona un script que ejecuta las pruebas
-del sistema en el directorio raíz: `run_tests`.
+del sistema en el directorio raíz: `run\_tests`.
+
+\begin{figure}[H]
+\includegraphics[scale=0.35]{help.png}
+\end{figure}
+
+\section{Desarrollo}
+\subsection{Cronograma de Actividades}
+\begin{figure}[H]
+\includegraphics[scale=0.5]{crono1.png}
+\includegraphics[scale=0.5]{crono2.png}
+\end{figure}
 
 
 

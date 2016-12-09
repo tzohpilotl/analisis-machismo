@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.12.7)  9 DEC 2016 04:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.12.7)  9 DEC 2016 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -164,8 +164,16 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count96
 \AM@templatesizebox=\box31
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks18
+\float@box=\box32
+\@float@everytoks=\toks19
+\@floatcapt=\box33
+)
 \BCL=\skip60
-Package color Info: Redefining color py@inputcolour on input line 36.
+Package color Info: Redefining color py@inputcolour on input line 38.
 \funcindent=\skip61
 \funcwidth=\skip62
 \varindent=\skip63
@@ -175,8 +183,8 @@ Package color Info: Redefining color py@inputcolour on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
@@ -447,15 +455,15 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen109
-\Hy@linkcounter=\count97
-\Hy@pagecounter=\count98
+\Hy@linkcounter=\count98
+\Hy@pagecounter=\count99
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count99
+\Hy@SavedSpaceFactor=\count100
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -492,7 +500,7 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count100
+\c@Hy@tempcnt=\count101
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -500,7 +508,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen110
-\Fld@menulength=\count101
+\Fld@menulength=\count102
 \Field@Width=\dimen111
 \Fld@charsize=\dimen112
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -512,17 +520,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count102
-\c@Item=\count103
-\c@Hfootnote=\count104
+\Hy@abspage=\count103
+\c@Item=\count104
+\c@Hfootnote=\count105
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count105
-\c@bookmark@seq@number=\count106
+\Fld@listcount=\count106
+\c@bookmark@seq@number=\count107
 \Hy@SectionHShift=\skip67
 )
 \@indexfile=\write3
@@ -543,36 +551,36 @@ Writing index file api.idx
 (./analisis-machismo.tests.test_tweet_formatter-module.aux))
 \openout1 = `api.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
+\scratchcounter=\count108
 \scratchdimen=\dimen113
-\scratchbox=\box32
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count110
+\scratchbox=\box34
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count111
 \MPscratchDim=\dimen114
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks21
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks23
 )
-\AtBeginShipoutBox=\box33
+\AtBeginShipoutBox=\box35
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -588,7 +596,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 81.
+Package hyperref Info: Link coloring ON on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -596,22 +604,22 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count113
+\c@section@level=\count114
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
 (./api.out) (./api.out)
 \@outlinefile=\write4
 \openout4 = `api.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 97.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 97.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -621,68 +629,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `api.toc'.
 
+ [2]
+<help.png, id=230, 1371.1225pt x 724.7075pt>
+File: help.png Graphic file (type png)
+ <use help.png>
+Package pdftex.def Info: help.png used on input line 148.
+(pdftex.def)             Requested size: 479.90007pt x 253.65143pt.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.141 del sistema en el directorio raíz: `run_
-                                               tests`.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.142 
-      
-? 
-[2] <crono.pdf, id=210, 794.97pt x 614.295pt>
-File: crono.pdf Graphic file (type pdf)
- <use crono.pdf>
-Package pdftex.def Info: crono.pdf used on input line 143.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: crono.pdf Graphic file (type pdf)
- <use crono.pdf>
-Package pdftex.def Info: crono.pdf used on input line 143.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+Overfull \hbox (10.14505pt too wide) in paragraph at lines 148--149
+[][] 
+ []
 
-[3] <crono.pdf, id=219, page=1, 794.97pt x 614.295pt>
-File: crono.pdf Graphic file (type pdf)
- <use crono.pdf, page 1>
-Package pdftex.def Info: crono.pdf, page1 used on input line 143.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: crono.pdf Graphic file (type pdf)
+<crono1.png, id=231, 714.67pt x 573.14125pt>
+File: crono1.png Graphic file (type png)
+ <use crono1.png>
+Package pdftex.def Info: crono1.png used on input line 154.
+(pdftex.def)             Requested size: 357.33412pt x 286.56992pt.
 
-<use crono.pdf, page 1>
-Package pdftex.def Info: crono.pdf, page1 used on input line 143.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
-File: crono.pdf Graphic file (type pdf)
- <use crono.pdf, page 1>
-Package pdftex.def Info: crono.pdf, page1 used on input line 143.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
-File: crono.pdf Graphic file (type pdf)
- <use crono.pdf, page 1>
-Package pdftex.def Info: crono.pdf, page1 used on input line 143.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
-File: crono.pdf Graphic file (type pdf)
+<crono2.png, id=232, 751.80875pt x 445.665pt>
+File: crono2.png Graphic file (type png)
+ <use crono2.png>
+Package pdftex.def Info: crono2.png used on input line 155.
+(pdftex.def)             Requested size: 375.90344pt x 222.83195pt.
 
-<use crono.pdf, page 1>
-Package pdftex.def Info: crono.pdf, page1 used on input line 143.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
- [4 <./crono.pdf>]
-<crono.pdf, id=236, page=2, 794.97pt x 614.295pt>
-File: crono.pdf Graphic file (type pdf)
- <use crono.pdf, page 2>
-Package pdftex.def Info: crono.pdf, page2 used on input line 143.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
-File: crono.pdf Graphic file (type pdf)
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+[][]
+ []
 
-<use crono.pdf, page 2>
-Package pdftex.def Info: crono.pdf, page2 used on input line 143.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
-File: crono.pdf Graphic file (type pdf)
- <use crono.pdf, page 2>
-Package pdftex.def Info: crono.pdf, page2 used on input line 143.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
- [5 <./crono.pdf>]
+[3 <./help.png>] [4 <./crono1.png> <./crono2.png>]
 \openout2 = `analisis-machismo-module.aux'.
 
 
@@ -694,41 +668,41 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
-) [6
+) [5
 
 ]
 \openout2 = `analisis-machismo.app-module.aux'.
 
 
-(./analisis-machismo.app-module.tex) [7
+(./analisis-machismo.app-module.tex) [6
 
 
 ]
 \openout2 = `analisis-machismo.app.analysis-module.aux'.
 
 
-(./analisis-machismo.app.analysis-module.tex) [8
+(./analisis-machismo.app.analysis-module.tex) [7
 
 
 ]
 \openout2 = `analisis-machismo.app.dictionary_tagger-module.aux'.
 
 
-(./analisis-machismo.app.dictionary_tagger-module.tex) [9
+(./analisis-machismo.app.dictionary_tagger-module.tex) [8
 
 
 ]
 \openout2 = `analisis-machismo.app.key_reader-module.aux'.
 
 
-(./analisis-machismo.app.key_reader-module.tex) [10
+(./analisis-machismo.app.key_reader-module.tex) [9
 
 
 ]
 \openout2 = `analisis-machismo.app.tag_counter-module.aux'.
 
 
-(./analisis-machismo.app.tag_counter-module.tex) [11
+(./analisis-machismo.app.tag_counter-module.tex) [10
 
 
 ]
@@ -743,42 +717,42 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 27.
-) [12
+) [11
 
 
 ]
 \openout2 = `analisis-machismo.app.twitter_miner-module.aux'.
 
 
-(./analisis-machismo.app.twitter_miner-module.tex) [13
+(./analisis-machismo.app.twitter_miner-module.tex) [12
 
 
 ]
 \openout2 = `analisis-machismo.tests-module.aux'.
 
 
-(./analisis-machismo.tests-module.tex) [14
+(./analisis-machismo.tests-module.tex) [13
 
 
 ]
 \openout2 = `analisis-machismo.tests.test_dictionary_tagger-module.aux'.
 
 
-(./analisis-machismo.tests.test_dictionary_tagger-module.tex) [15
+(./analisis-machismo.tests.test_dictionary_tagger-module.tex) [14
 
 
 ]
 \openout2 = `analisis-machismo.tests.test_key_reader-module.aux'.
 
 
-(./analisis-machismo.tests.test_key_reader-module.tex) [16
+(./analisis-machismo.tests.test_key_reader-module.tex) [15
 
 
 ]
 \openout2 = `analisis-machismo.tests.test_tweet_formatter-module.aux'.
 
 
-(./analisis-machismo.tests.test_tweet_formatter-module.tex) [17
+(./analisis-machismo.tests.test_tweet_formatter-module.tex) [16
 
 
 ] (./api.ind
@@ -817,13 +791,13 @@ Overfull \hbox (19.93378pt too wide) in paragraph at lines 22--24
 t/10 (mod-
  []
 
-[18
+[17
 
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./api.aux (./analisis-machismo-module.aux)
 (./analisis-machismo.app-module.aux)
 (./analisis-machismo.app.analysis-module.aux)
@@ -836,39 +810,34 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
 (./analisis-machismo.tests.test_dictionary_tagger-module.aux)
 (./analisis-machismo.tests.test_key_reader-module.aux)
 (./analisis-machismo.tests.test_tweet_formatter-module.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `api.out' has not changed.
-(rerunfilecheck)             Checksum: B801816D0475DEA49844273D237ED7BF;2580.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
+(rerunfilecheck)             Checksum: 2F939A54401B997F55B8B8657195AA72;2895.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 7162 strings out of 495020
- 112295 string characters out of 6181324
- 193009 words of memory out of 5000000
- 10104 multiletter control sequences out of 15000+600000
+ 7227 strings out of 495020
+ 113137 string characters out of 6181324
+ 194564 words of memory out of 5000000
+ 10160 multiletter control sequences out of 15000+600000
  12370 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,18n,46p,563b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,12n,43p,563b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmtt10.pfb>
-Output written on api.pdf (18 pages, 198278 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb>
+Output written on api.pdf (17 pages, 356646 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 57 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 365 compressed objects within 4 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 352 words of extra memory for PDF output out of 10000 (max. 10000000)
 
